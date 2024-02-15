@@ -1,0 +1,5 @@
+steps:
+  - name: 'gcr.io/cloud-builders/docker'
+    id: 'Primer paso'
+    entrypoint: /bin/bash
+    args: ["echo", "primer_prueba"]
