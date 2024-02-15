@@ -1,5 +1,5 @@
 steps:
   - name: "python:3.8"
     id: 'Primer paso'
-    entrypoint: /bin/bash
-    args: ["echo", "primer_prueba"]
+    entrypoint: echo
+    args: ["primer_prueba"]
